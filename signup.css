@@ -1,0 +1,99 @@
+*{ margin: 0; padding: 0;
+font-family: 'Cinzel', serif;
+ }
+ .bgimg{
+ 	width: 100%;
+height: 100vh;
+
+background-image: url(bac.jpg);
+background-size: cover;
+ }
+ h2{text-align: center;
+color: white;
+text-transform: uppercase;
+font-size: 2em;
+word-spacing: 10px;
+margin-top: -60px;
+margin-bottom: 50px;
+text-shadow: -2px 2px 1px black;}
+ .centerdiv{
+	width: 350px;
+	height: 600px;
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	box-shadow: 0 1px 6px rgba(0,0,0,0.3) , 0 1px 4px rgba(0,0,0,0.2);
+	background: rgba(0,0,0,0.7);
+}
+
+	#profilepic{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	position: relative;
+	top: -80px;
+	left: calc( (350px - 140px) / 2 );
+	box-shadow: 0 1px 6px rgba(0,0,0,0.3) , 0 1px 4px rgba(0,0,0,0.2);
+}
+
+ form{
+ 	text-align: center;
+ 	text-transform: uppercase;
+ 	font-size: 1.5em;
+ 	word-spacing: 10px;
+ 	margin-top: -40px;
+ 	margin-bottom: -100px;
+}
+
+input{
+
+	width: calc(100% - 40px);
+height: 32px;
+display: block;
+margin: auto;
+padding:  0px 10px;
+box-sizing: border-box;}
+
+::placeholder{letter-spacing: 2px;
+color: black;}
+button{
+	width: calc(100% - 40px);
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	margin: auto;
+	color: black;
+	background-color: skyblue;
+	text-transform: uppercase;
+	font-size: 0.6em;
+	border: none;
+
+}
+.btntwo{
+	width: calc(100% - 40px);
+	height: 32px;
+	line-height: 30px;
+	display: block;
+	margin: auto;
+	color: black;
+	background-color: skyblue;
+	text-transform: uppercase;
+	font-size: 0.6em;
+	border: none;
+	text-underline-position: none;
+	text-decoration: none;
+}
+.name{
+
+	width: calc(100% - 40px);
+height: 32px;
+display: block;
+margin: auto;
+padding:  0px 10px;
+box-sizing: border-box;}
+
+::placeholder{letter-spacing: 2px;
+color: black;}
+}
